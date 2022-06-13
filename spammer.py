@@ -14,7 +14,7 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.starttls()
     smtp.ehlo()
 
-    smtp.login('uravspare@gmail.com', 'lnppowmkuuptzweq')
+    smtp.login('uravspare@gmail.com', 'YOUR EMAIL PASSWORD')
     
     while True:
         try:     
